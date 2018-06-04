@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title>Social login with django</title>
+	</head>
+	<body>
+		<a href="{% url 'social:begin' 'facebook-oauth2' %}">Facebook</a> </br>
+		<a href="{% url 'social:begin' 'linkedin-oauth2' %}">Linkedin</a> </br>
+		<a href="{% url 'social:begin' 'google-oauth2' %}">Google+</a> </br>
+		<a href="{% url 'social:begin' 'twitter-oauth' %}">Twitter</a>
+	</body>
+</html>

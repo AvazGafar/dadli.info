@@ -1,0 +1,54 @@
+database structure for the items (restaurants)
+
+Table 1 : object info
+1. ID
+2. object (name)
+3. 
+
+
+Table 2: category table
+1. ID
+2. cat_az (restaurant, tea house, coffee shop, stakehouse, etc)
+3. cat_en
+4. cat_ru
+5. cat_ar
+6. cat_tr
+
+
+Table 3: category to object table
+
+1. ID
+2. object ID (foreign key)
+3. category ID (foreign key)
+
+
+Table 4: tags
+
+1. ID
+2. tag language
+3. tag
+
+
+
+Table 5: tags to objects
+
+1. ID
+2. object ID (foreign key)
+3. tag ID (foreign key)
+
+
+--------------------------------- AFTER THIS: NOT THOUGHT THROUGH -------------------------------
+
+Table 6: users
+1. ID
+2. usermail
+3. userpass
+4. userinfo
+
+
+
+Table 7: ratings for different characteristics
+
+
+
+Table 7: 
